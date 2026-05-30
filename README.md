@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Pianola
 
-Status: L2 V5 build-packet candidate; pneumatic player-piano mechanism study
+Status: L3-candidate V5 packet (deepened: protocols, tolerances, assembly, FMEA)...
 for review and prototype planning only, not fabrication-ready.
 
 This repository is a V5 L2 build-packet candidate for a pianola-style player piano.
