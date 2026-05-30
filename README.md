@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Pianola
 
-Status: L1 V5 concept packet; pneumatic player-piano mechanism study only, not
-fabrication-ready.
+Status: L2 V5 build-packet candidate; pneumatic player-piano mechanism study
+for review and prototype planning only, not fabrication-ready.
 
-This repository is a V5 L1 build-packet seed for a pianola-style player piano.
+This repository is a V5 L2 build-packet candidate for a pianola-style player piano.
 The design centers on a perforated paper roll, a tracker bar, pneumatic sensing,
 pouches and valves, and a pneumatic action that operates a conventional piano
 action. The musical goal is not a new tuning system; it is a reliable
@@ -19,9 +19,12 @@ reference, prototype, or reviewed design table exists.
 
 ## Packet Map
 
-- `design.md` - mechanism, parametric intent, and measurement gates.
+- `design.md` - mechanism, subsystem interfaces, L2 prototype sequence, and
+  measurement gates.
 - `bom.csv` - estimated subsystem list with pending measurement authority.
-- `decision-record.md` - decisions, assumptions, and open questions.
+- `cut-list.csv` - placeholder make/buy/cut planning register with no released
+  dimensions.
+- `decision-record.md` - decisions, assumptions, open questions, and L2 gates.
 - `visual-output-register.csv` - V5 authority register for this concept packet.
 - `cad/mcp-session-log.md` - QMD and no-MCP provenance log.
 
@@ -34,9 +37,10 @@ reference, prototype, or reviewed design table exists.
 - The piano action, not the pneumatic system alone, determines final hammer
   behavior and tone.
 
-## Readiness Boundary
+## L2 Readiness Boundary
 
-L1 means intent, risks, and subsystem interfaces are documented. Promotion to
-L2 requires reviewed parameters, measured or sourced reference constraints, and
-prototype test plans. L3 or stronger requires validated geometry and measured
-setup evidence.
+L2 means the repo is organized enough for review and prototype planning, but
+all build-affecting geometry, roll scale, pressure, force, timing, and action
+travel claims remain `pending_measurement`. Promotion to L3 requires validated
+geometry and measured setup evidence from a tracker-bar, pouch/valve, and
+action-coupling prototype.
