@@ -1,0 +1,12 @@
+item_id,subsystem,component,quantity_basis,authority,notes
+BOM-001,roll_transport,perforated roll reference media,estimate_pending_measurement,pending_measurement,"Roll format and hole scale are not released."
+BOM-002,roll_transport,spool and take-up hardware,estimate_pending_measurement,pending_measurement,"Transport concept only; dimensions tension and drive are pending."
+BOM-003,tracker_bar,tracker bar body,estimate_pending_measurement,pending_measurement,"Port layout and sealing surface require measured reference or prototype data."
+BOM-004,tracker_bar,tracker-bar tubing or channels,estimate_pending_measurement,pending_measurement,"Routing concept only; lengths and diameters are not specified."
+BOM-005,pneumatic_chain,pouches,estimate_pending_measurement,pending_measurement,"Pouch material area and response require bench tests."
+BOM-006,pneumatic_chain,valves and seats,estimate_pending_measurement,pending_measurement,"Valve geometry seal and vent behavior are pending measurement."
+BOM-007,pneumatic_chain,vacuum source and reservoir,estimate_pending_measurement,pending_measurement,"Vacuum level airflow and reservoir sizing are not specified."
+BOM-008,action_interface,pneumatic actuators,estimate_pending_measurement,pending_measurement,"Actuator travel and force require action-rig testing."
+BOM-009,action_interface,piano action interface hardware,estimate_pending_measurement,pending_measurement,"Interface to real or representative piano action; no geometry released."
+BOM-010,controls,tempo expression and sustain controls,estimate_pending_measurement,concept_only,"Future branch after single-note chain is measured."
+BOM-011,documentation,measurement log,estimate_pending_measurement,concept_only,"Future log for tracker sensing leaks pouch response valve timing and action travel."
