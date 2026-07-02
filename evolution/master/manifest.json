@@ -1,0 +1,34 @@
+{
+  "product": "pianola",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/pianola.scad",
+      "format": "openscad-source",
+      "sha256": "3ef976bfd16f17196e892f7c0c4fb20fdb8cc821c92819c9792ef13cefb7efe2",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Parametric structural-envelope scaffold; symbolic margins as formulas, render-only placeholder leaf values (packet is non-dimensional)."
+    },
+    {
+      "path": "docs/parametric-design-table.md",
+      "format": "design-table",
+      "sha256": "0f5794220d0d52142541336c54f2071aa54d410f805d0e43fa61594e90d0bd37",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Symbolic relationship table; every symbol pending_measurement — no absolute values released."
+    },
+    {
+      "path": "wolfram/pianola-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "e49379076619091aef176f9af53b61bb0260c22b0d1a4adb0e44028ff95e6fd1",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only (not executed); estimate placeholders; L2 evidence."
+    }
+  ],
+  "notes": "OpenSCAD envelope scaffold + symbolic design table are the current masters; no STEP export (SolidWorks export is Windows-side, out of scope this pass). Packet is deliberately non-dimensional — no fabrication authority. Gate A (Alpha workspace compile) NOT yet run."
+}
