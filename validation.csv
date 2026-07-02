@@ -1,0 +1,11 @@
+<!-- measurement gates; acceptance bases qualitative until a rubric + measured targets exist; pending_measurement -->
+gate_id,subsystem,measurement,acceptance_basis,authority,status,notes
+VAL-001,roll_transport,roll advance per event,stable transport; rollTransportSpeed * eventTimeWindow,pending_measurement,gate_open,"rollAdvancePerEvent; no tempo/speed value; docs/parametric-design-table.md."
+VAL-002,tracker_bar,tracker port pitch vs roll hole pitch,ports align to reference roll,pending_measurement,gate_open,"trackerPortPitch = rollHolePitch + alignmentAllowance; measure from test strip."
+VAL-003,tracker_bar,paper seal condition,adequate seal without drag,pending_measurement,gate_open,"paperSealCondition = paperContactForce / trackerSurfaceArea (dependency only)."
+VAL-004,pneumatic,leak budget isolation,leaks isolated per source within budget,pending_measurement,gate_open,"leakBudgetTotal = tracker+tube+pouch+valve+actuator leak."
+VAL-005,pneumatic,pouch output vs valve motion required,pouchOutputMargin > 0,pending_measurement,gate_open,"pouchMotionAvailable - valveMotionRequired; measured on chest coupon."
+VAL-006,pneumatic,valve reset vs repeat demand,valveResetMargin > 0,pending_measurement,gate_open,"resetCapability - repeatDemand; repeat-note test."
+VAL-007,actuator,actuator travel vs action travel required,actuatorTravelMargin > 0,pending_measurement,gate_open,"actuatorTravelAvailable - actionTravelRequired; measured rig."
+VAL-008,piano_action,lost motion budget,lostMotionBudget accounted before tolerancing,pending_measurement,gate_open,"interfaceSlack + compliance + regulationOffset."
+VAL-009,service,service access envelope,components removable + inspectable,pending_measurement,gate_open,"componentRemovalPath + inspectionClearance; review before scale-up."

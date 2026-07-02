@@ -1,0 +1,9 @@
+<!-- spec-first sourcing; no released dimensions, no verified prices; pending_measurement -->
+item_id,subsystem,spec_basis,candidate_source_class,authority,status,notes
+SRC-ROLL,roll_transport,perforated roll media + spools + drive/rewind,player-piano supply,pending_measurement,spec_pending,"Roll format, hole scale, paper stock, spool geometry not released."
+SRC-TRACKER,tracker_bar,tracker-bar coupon + sealing face + tubing,fabrication/supply,pending_measurement,spec_pending,"Port pitch trackerPortPitch, tube lengths/diameters pending."
+SRC-PNEUMATIC,pneumatic,pouches, valves, valve chest stock,pneumatic-action supply,pending_measurement,spec_pending,"Pouch/valve geometry + margins pending measurement."
+SRC-ACTUATOR,actuator,pneumatic motors / action drivers,pneumatic-action supply,pending_measurement,spec_pending,"Actuator travel vs action travel required pending rig."
+SRC-ACTION,piano_action,piano action + hammers + dampers,piano-parts supplier,pending_measurement,spec_pending,"Conventional action; regulation values pending."
+SRC-STRINGS,stringing,piano wire + tuning pins + hitch pins,piano-wire supplier,pending_measurement,spec_pending,"Scale, gauge, tension not specified."
+SRC-CASE,structure,case, soundboard, plate/frame stock,tonewood + frame supply,pending_measurement,spec_pending,"Case/soundboard/plate structure pending review."
